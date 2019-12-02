@@ -1,0 +1,9 @@
+class Product():
+    strProductName = ""
+    strProductPrice = ""
+
+
+objP1 = Product()
+objP1.strProductName = "Soap"
+objP1.strProductPrice = "3.00"
+print(objP1.strProductName, objP1.strProductPrice)
