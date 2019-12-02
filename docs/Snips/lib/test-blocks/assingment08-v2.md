@@ -1,4 +1,3 @@
-```
 # ------------------------------------------------------------------------ #
 # Title: Assignment 08
 # Description: Working with classes
@@ -20,15 +19,16 @@
 
 # Declare variables and constants
 strFileName = "products.txt"  # The name of the data file
-objFile = None   # An object that represents a file
+objFile = ""  # An object that represents a file
 strProductName = "product_name"  # A row of text data from the file
 fltProductPrice = "product_price"  # A row of text data from the file
-lstOfProductObjects = []  # A list of objects that acts as a 'table' of rows
+lstOfProductObjects = ["products_copy.txt"]  # A list of objects that acts as a 'table' of rows
 
 
 class Product(object):
     strProductName = ""
     fltProductPrice = ""
+
 
     """Stores data about a product:
 
@@ -42,8 +42,8 @@ class Product(object):
     """
 
     def __init__(self, product_name="", product_price=""):
-        self.__ProductName = product_name
-        self.__ProductPrice = product_price
+        self.strProductName = product_name
+        self.fltProductPrice = product_price
 
 objP1 = Product()
 objP2 = Product(product_name = "Apples", product_price = "$1.75")
@@ -59,18 +59,24 @@ class FileProcessor:
     """ Processing the data to and from a text file"""
 
 @property
-def __product_name(self): #The name must match the attribute!
-     return str(self.__product_name).title()
+def product_name(self): #The name must match the attribute!
+     return str(self.product_name).title()
 
 
-@__product_name.setter
-def __product_name(self, value):
-     if str(value).isnumeric() == False:
-         self.__product_name = value
+@product_name.setter
+def product_name(self, value):
+     if not str(value).isnumeric():
+         assert isinstance(value, object)
+         self.product_name = value
      else:
          raise Exception("Names cannot be numbers")
+
+
+with open("products.txt", "r") as rf:
+    with open("products_copy.txt", "w") as wf:
+        for line in rf:
+             wf.write(line)
 
  #---------Processing  -------------------------------------------------------------
 
  #--------Presentation (Input/Output)  --------------------------------------------
-```
