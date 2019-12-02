@@ -1,4 +1,5 @@
 
-       ##### ITFDN100_Mod08  +   Assignment08  +   Kstevens  
-        
-            # Python Classes and Objects 
+
+
+# Python Classes and Objects 
+##### ITFDN100_Mod08  +   Assignment08  +   Kstevens  
