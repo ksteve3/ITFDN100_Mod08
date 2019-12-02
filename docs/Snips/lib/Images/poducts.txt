@@ -1,0 +1,29 @@
+Apples, $1.75
+Bologna, $1.75
+Broccoli, $1.50
+Brown Sugar, $3.20
+Caesar Italian Free, $1.89
+Carrots, $1.50
+Cheesy Noodles, $3.20
+Cucumber, $1.50
+Eggs, $2.99
+Flour, $2.20
+French Bread, $1.50
+Green pepper, $1.50
+Laundry Detergent, $2.75
+Lettuce, $1.50
+Macaroni and Cheese, $3.20
+Margarine, $2.99
+Milk, $2.99
+Napkins, $2.75
+Newman’s Family Style Italian, $3.89
+Onions, $1.75
+Orange Juice, $2.99
+Pizza Sauce, $3.89
+Powdered Sugar, $3.20
+Ramen, $3.20
+Refried Beans, $3.89
+Salad dressing, $1.89
+Sugar, $3.20
+Toilet Paper, $2.75
+Tomato, $1.50
