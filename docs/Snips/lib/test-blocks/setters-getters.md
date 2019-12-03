@@ -18,12 +18,12 @@
 # Kstevens,<11-30-19>,Modified code to complete assignment 8
 # ------------------------------------------------------------------------ #
 
-# ITFDN100_Mod08
+#ITFDN100_Mod08
 
 Getting and setters / Accessors and Mutator
 
 ```
-## Directive  / @name_of_method.setter
+#Directive  / @name_of_method.setter
 
 
 @product_price.setter #(Setter or Mutator)
@@ -35,7 +35,7 @@ def product_price(self, value):
         raise Exception
 
 
-# Directive  / @product_name.setter
+#Directive  / @product_name.setter
 
 @product_name.setter #(Setter or Mutator)
 def product_name(self, value):
@@ -48,25 +48,24 @@ def product_name(self, value):
 
 
 
-# Property Directive / @property /  timestamp 33:00
+#Property Directive / @property /  timestamp 33:00
+#(Getter or Accessors)  
+#getter does not read files. Typically the getter does formatting processes
 
-@property  # (Getter or Accessors)  ## getter does not read files. Typically the
-# "getter does formatting processes
+@property  
 def product_name(self): #The name must match the attribute!
-    return str(self.__product_name).title()  # change letter casing to opposite of the name value
-    # examples used to create copies of the classes.
+    return str(self.__product_name).title()  
+    #change letter in 'title' casing to opposite of the name value examples used to create copies of the classes.
 
 
 
 NOTES:
-# Using setters and getters as a pair or using standalone (Timestamp:44:00)
 
+#Using setters and getters as a pair or using standalone (Timestamp:44:00)
 
-#  if you want your script to function as "write only" do pair with a "getter" directive as you
-# will not get anything
+#if you want your script to function as "write only" do pair with a "getter" directive as you will not get anything
 
-# if you want your script to function as read only, leave off the "setter"
-# - but doing it this way will not tallow you to change it
+#if you want your script to function as read only, leave off the "setter" but doing it this way will not tallow you to change it
 
 ```
 
