@@ -35,7 +35,7 @@ def product_price(self, value):
         raise Exception
 
 
-## Directive  / @product_name.setter
+# Directive  / @product_name.setter
 
 @product_name.setter #(Setter or Mutator)
 def product_name(self, value):
@@ -48,7 +48,7 @@ def product_name(self, value):
 
 
 
-## Property Directive / @property /  timestamp 33:00
+# Property Directive / @property /  timestamp 33:00
 
 @property  # (Getter or Accessors)  ## getter does not read files. Typically the
 # "getter does formatting processes
@@ -67,5 +67,6 @@ NOTES:
 
 # if you want your script to function as read only, leave off the "setter"
 # - but doing it this way will not tallow you to change it
+
 ```
 
