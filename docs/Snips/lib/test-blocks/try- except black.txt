@@ -1,0 +1,7 @@
+try:
+	print(objP1.product_name)
+except Exxception as e:
+	print(e.__doc__)
+print("Test Assignment Attribute--------")
+objP1.product_name ='123'
+print(objP1.product_name)
