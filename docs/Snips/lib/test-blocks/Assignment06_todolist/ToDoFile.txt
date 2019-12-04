@@ -1,0 +1,7 @@
+kitchen,high
+bathroom,low
+rec room,high
+den,high
+livingroom,low
+bedroom,low
+guestroom,low
